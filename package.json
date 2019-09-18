@@ -1,15 +1,24 @@
 {
   "name": "productlandingpagescroll",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "homepage": "https://devdavest.github.io/ProductLanding",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
-  "author": "devdave",
+  "author": "devdavest",
   "license": "ISC",
   "dependencies": {
     "gh-pages": "^2.1.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devdavest/ProductLanding.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/devdavest/ProductLanding/issues"
+  },
+  "description": ""
 }
